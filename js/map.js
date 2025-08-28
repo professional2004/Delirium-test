@@ -378,7 +378,7 @@ window.addEventListener('load', async function () {
   for (let type of Object.keys(responceResults)) {
     let typeFirstLetter = type.charAt(0).toUpperCase() + type.slice(1);
     try {
-      const response = await fetch(`../../mapObjects${typeFirstLetter}.json`);
+      const response = await fetch(`mapObjects${typeFirstLetter}.json`);
       if (!response.ok) {
         throw new Error(`HTTP error: ${response.status}`);
       }
@@ -872,6 +872,7 @@ map_element.addEventListener('click', (e) => {
 //     }
 //   }
 // }
+
 
 
 // checkSectionsForShow();
