@@ -1,0 +1,124 @@
+.c-section.transport {
+  /* params */
+  --section-transport--search-inner-scrolled-display: inline-block;
+  --section-transport--search-outer-scrolled-display: none;
+  --section-transport--transport-container--grid-temp-cols: repeat(1, 1fr);
+  --section-transport--transport-card--flex-dir: row;
+  --section-transport--transport-card--image--w: 242px;
+  --section-transport--transport-card--image--h: 130px;
+  --section-transport--characteristics-container--grid-temp-areas: "name volume speed num cost";
+  --section-transport--characteristics-container--grid-temp-cols: 1fr max-content max-content max-content max-content;
+  --section-transport--characteristic--text-align: right;
+}
+
+@media (max-width: 1599px) and (min-width: 770px) {
+  .c-section.transport {
+    --section-transport--search-inner-scrolled-display: none;
+    --section-transport--search-outer-scrolled-display: inline-block;
+    --section-transport--transport-container--grid-temp-cols: repeat(2, 1fr);
+    --section-transport--transport-card--flex-dir: column;
+    --section-transport--transport-card--image--w: 260px;
+    --section-transport--transport-card--image--h: 142px;
+    --section-transport--characteristics-container--grid-temp-areas: "name   name"
+                                                                     "volume speed"
+                                                                     "num    cost";
+    --section-transport--characteristics-container--grid-temp-cols: 1fr 1fr;
+    --section-transport--characteristic--text-align: left;
+  }
+}
+@media (max-width: 769px) {
+  .c-section.transport {
+    --section-transport--search-inner-scrolled-display: none;
+    --section-transport--search-outer-scrolled-display: inline-block;
+    --section-transport--transport-container--grid-temp-cols: repeat(1, 1fr);
+    --section-transport--transport-card--flex-dir: column;
+    --section-transport--transport-card--image--w: 260px;
+    --section-transport--transport-card--image--h: 142px;
+    --section-transport--characteristics-container--grid-temp-areas: "name   name"
+                                                                     "volume speed"
+                                                                     "num    cost";
+    --section-transport--characteristics-container--grid-temp-cols: 1fr 1fr;
+    --section-transport--characteristic--text-align: left;
+  }
+}
+
+.c-section.transport .c-content {
+  padding: 50px 0px 100px;
+}
+.c-section.transport .transport-container {
+  display: grid;
+  grid-template-columns: var(--section-transport--transport-container--grid-temp-cols);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.c-section.transport .transport-card {
+  display: flex;
+  flex-direction: var(--section-transport--transport-card--flex-dir);
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  background-color: #1C1920;
+  border-radius: 30px;
+  padding: 14px 20px 14px 40px;
+}
+
+.c-section.transport .transport-card .transport-image {
+  width: var(--section-transport--transport-card--image--w);
+  height: var(--section-transport--transport-card--image--h);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.c-section.transport .transport-card .transport-image img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.c-section.transport .characteristics-container {
+  display: grid;
+  grid-template-areas: var(--section-transport--characteristics-container--grid-temp-areas);
+  grid-template-columns: var(--section-transport--characteristics-container--grid-temp-cols);
+  gap: 30px;
+  width: 100%;
+}
+.c-section.transport .characteristic.name { grid-area: name; }
+.c-section.transport .characteristic.volume { grid-area: volume; }
+.c-section.transport .characteristic.speed { grid-area: speed; }
+.c-section.transport .characteristic.num { grid-area: num; }
+.c-section.transport .characteristic.cost { grid-area: cost; }
+
+.c-section.transport .characteristic {
+  display: inline-flex;
+  flex-direction: column;
+  width: fit-content;
+  text-align: var(--section-transport--characteristic--text-align);
+}
+
+.c-section.transport .characteristic.name {
+  width: 100%;
+  text-align: left;
+}
+
+.c-section.transport .characteristic .text {
+  display: inline-block;
+  width: 100%;
+}
+
+.c-section.transport .characteristic .text.title {
+  font-weight: var(--font-fw--transport--transport-card-title);
+  font-size: var(--font-fs--transport--transport-card-title);
+  line-height: var(--font-lh--transport--transport-card-title);
+  color: #717171;
+}
+
+.c-section.transport .characteristic .text.value {
+  font-weight: var(--font-fw--transport--transport-card-text);
+  font-size: var(--font-fs--transport--transport-card-text);
+  line-height: var(--font-lh--transport--transport-card-text);
+}

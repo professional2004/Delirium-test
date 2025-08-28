@@ -1,0 +1,153 @@
+.c-section.personal-account {
+  /* params */
+  --section-personal-account--settings-blocks--settings-block--gap: 20px;
+  --section-personal-account--settings-blocks-container--notification-checkbox-container--flex-dir: row;
+  --section-personal-account--settings-blocks-container--notification-checkbox-container--flex-wrap: nowrap;
+  --section-personal-account--settings-blocks-container--notification-checkbox-container--gap: 50px;
+  --section-personal-account--settings-blocks-container--notification-checkbox-container--v-margin: 10px;
+  --section-personal-account--statistics-blocks-container--grid-temp-areas: "account state"
+                                                                            "stats   stats"
+                                                                            "awards  awards";
+  --section-personal-account--statistics-blocks-container--grid-temp-cols: 1fr 1fr;
+  --section-personal-account--statistics-blocks-container--gap: 40px 30px;
+}
+
+@media (max-width: 1599px) and (min-width: 770px) {
+  .c-section.personal-account {
+    --section-personal-account--settings-blocks--settings-block--gap: 20px;
+    --section-personal-account--settings-blocks-container--notification-checkbox-container--flex-dir: row;
+    --section-personal-account--settings-blocks-container--notification-checkbox-container--flex-wrap: wrap;
+    --section-personal-account--settings-blocks-container--notification-checkbox-container--gap: 20px 30px;
+    --section-personal-account--settings-blocks-container--notification-checkbox-container--v-margin: 0px;
+    --section-personal-account--statistics-blocks-container--grid-temp-areas: "account"
+                                                                              "state"
+                                                                              "stats"
+                                                                              "awards";
+    --section-personal-account--statistics-blocks-container--grid-temp-cols: 1fr;
+    --section-personal-account--statistics-blocks-container--gap: 20px;
+  }
+}
+
+@media (max-width: 769px) {
+  .c-section.personal-account {
+    --section-personal-account--settings-blocks--settings-block--gap: 10px;
+    --section-personal-account--settings-blocks-container--notification-checkbox-container--flex-dir: column;
+    --section-personal-account--settings-blocks-container--notification-checkbox-container--flex-wrap: wrap;
+    --section-personal-account--settings-blocks-container--notification-checkbox-container--gap: 15px;
+    --section-personal-account--settings-blocks-container--notification-checkbox-container--v-margin: 5px;
+    --section-personal-account--statistics-blocks-container--grid-temp-areas: "account"
+                                                                              "state"
+                                                                              "stats"
+                                                                              "awards";
+    --section-personal-account--statistics-blocks-container--grid-temp-cols: 1fr;
+    --section-personal-account--statistics-blocks-container--gap: 10px;
+  }
+}
+
+
+.c-section.personal-account .c-content {
+  padding: 50px 0px 100px;
+}
+
+/* settings-blocks-container */
+
+.c-section.personal-account .settings-blocks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.c-section.personal-account .settings-blocks-container,
+.c-section.personal-account .statistics-blocks-container {
+  margin-top: 20px;
+}
+
+.c-section.personal-account .settings-blocks-container .settings-block {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-personal-account--settings-blocks--settings-block--gap);
+  border-radius: 30px;
+  background-color: #1C1920;
+}
+
+.c-section.personal-account .settings-blocks-container .settings-block .title {
+  font-weight: var(--font-fw--personal-account--settings-block--title);
+  font-size: var(--font-fs--personal-account--settings-block--title);
+  line-height: var(--font-lh--personal-account--settings-block--title);
+}
+
+.c-section.personal-account .settings-blocks-container .settings-block .s-input,
+.c-section.personal-account .settings-blocks-container .settings-block .s-button {
+  width: 100%;
+}
+
+.c-section.personal-account .settings-blocks-container .settings-block.notifiactions .text {
+  font-size: var(--font-fs--personal-account--settings-block--text);
+  line-height: var(--font-lh--personal-account--settings-block--text);
+}
+
+.c-section.personal-account .settings-blocks-container .settings-block.notifiactions .notification-checkbox-container {
+  display: flex;
+  flex-direction: var(--section-personal-account--settings-blocks-container--notification-checkbox-container--flex-dir);
+  flex-wrap: var(--section-personal-account--settings-blocks-container--notification-checkbox-container--flex-wrap);
+  gap: var(--section-personal-account--settings-blocks-container--notification-checkbox-container--gap);
+  margin: var(--section-personal-account--settings-blocks-container--notification-checkbox-container--v-margin) 0px;
+}
+
+/* statistics-blocks-container */
+
+
+.c-section.personal-account .statistics-blocks-container {
+  display: none;
+  grid-template-areas: var(--section-personal-account--statistics-blocks-container--grid-temp-areas);
+  grid-template-columns: var(--section-personal-account--statistics-blocks-container--grid-temp-cols);
+  gap: var(--section-personal-account--statistics-blocks-container--gap);
+}
+.c-section.personal-account .statistics-blocks-container .statistics-block.account { grid-area: account; }
+.c-section.personal-account .statistics-blocks-container .statistics-block.state { grid-area: state; }
+.c-section.personal-account .statistics-blocks-container .statistics-block.stats { grid-area: stats; }
+.c-section.personal-account .statistics-blocks-container .statistics-block.awards { grid-area: awards; }
+
+.c-section.personal-account .statistics-block .title {
+  display: block;
+  width: 100%;
+  padding: 18px;
+  text-align: center;
+  background-color: var(--color--orange);
+  border-radius: 15px;
+  font-weight: var(--font-fw--personal-account--statistics-block--title);
+  font-size: var(--font-fs--personal-account--statistics-block--title);
+  line-height: var(--font-lh--personal-account--statistics-block--title);
+}
+
+.c-section.personal-account .statistics-block .parameter {
+  position: relative;
+  width: 100%;
+  padding: 20px 40px;
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.c-section.personal-account .statistics-block .parameter + .parameter::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  transform: translateY(-50%);
+  top: 0px;
+  left: 0px;
+  background-color: #FFFFFF33;
+}
+
+.c-section.personal-account .statistics-block .parameter .text.name {
+  font-size: var(--font-fs--personal-account--statistics-block--text-name);
+  line-height: var(--font-lh--personal-account--statistics-block--text-name);
+}
+
+.c-section.personal-account .statistics-block .parameter .text.value {
+  font-weight: var(--font-fw--personal-account--statistics-block--text-value);
+  font-size: var(--font-fs--personal-account--statistics-block--text-value);
+  line-height: var(--font-lh--personal-account--statistics-block--text-value);
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "object": "navigator",
+    "name": "TrBar",
+    "coords": {"x": 217.0, "y": 1874.1}
+  },
+  {
+    "object": "navigator",
+    "name": "TrBaseballdm",
+    "coords": {"x": 1408.1, "y": 2206.8}
+  },
+  {
+    "object": "navigator",
+    "name": "TrAngel",
+    "coords": {"x": -2095.6, "y": -2463.4}
+  }
+]

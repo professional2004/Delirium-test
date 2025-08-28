@@ -1,0 +1,1142 @@
+[
+  {
+    "object": "area",
+    "name": "Bayside Marina",
+    "areaSquare": {"x": -2353.0, "y": 2476.0, "w": 202.0, "h": 201.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Bayside Marina",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 1000],
+      "type": 0,
+      "coords": {"x": -2271.8, "y": 2288.8}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Quebrados",
+    "areaSquare": {"x": -1643.0, "y": 2776.0, "w": 271.0, "h": 277.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Quebrados",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": -1469.0, "y": 2639.3}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Valle Ocultado",
+    "areaSquare": {"x": -936.0, "y": 2847.0, "w": 220.0, "h": 235.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Valle Ocultado",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -847.9, "y": 2789.4}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Arco Del Oeste",
+    "areaSquare": {"x": -900.0, "y": 2572.0, "w": 308.0, "h": 350.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Arco Del Oeste",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [500, 1500],
+      "type": 0,
+      "coords": {"x": -629.7, "y": 2506.9}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Las Payasdas",
+    "areaSquare": {"x": -353.0, "y": 2815.0, "w": 219.0, "h": 234.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Las Payasdas",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -211.2, "y": 2731.8}
+    }
+  },
+  {
+    "object": "area",
+    "name": "El Castillo del Diablo",
+    "areaSquare": {"x": -464.0, "y": 2581.0, "w": 502.0, "h": 431.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "El Castillo del Diablo",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": -305.0, "y": 2554.6}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Verdant Meadows",
+    "areaSquare": {"x": 38.0, "y": 2677.0, "w": 397.0, "h": 338.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Verdant Meadows",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 190.5, "y": 2545.7}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Octane Springs",
+    "areaSquare": {"x": 339.0, "y": 1656.0, "w": 325.0, "h": 427.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Octane Springs",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": 604.1, "y": 1471.2}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Green Palms",
+    "areaSquare": {"x": 101.0, "y": 1554.0, "w": 238.0, "h": 266.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Green Palms",
+      "group": "Смурфики",
+      "fullness": [500, 500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 285.1, "y": 1372.2}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Lil Probe Inn",
+    "areaSquare": {"x": -138.0, "y": 1554.0, "w": 239.0, "h": 266.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Lil Probe Inn",
+      "group": "Смурфики",
+      "fullness": [500, 500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -17.0, "y": 1482.5}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Fort Carson",
+    "areaSquare": {"x": -376.0, "y": 1221.0, "w": 499.0, "h": 393.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Fort Carson",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -128.5, "y": 998.3}
+    }
+  },
+  {
+    "object": "area",
+    "name": "The Big Ear",
+    "areaSquare": {"x": -410.0, "y": 1681.0, "w": 272.0, "h": 277.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "The Big Ear",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": -300.4, "y": 1563.9}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Regular Tom",
+    "areaSquare": {"x": -407.0, "y": 1890.0, "w": 129.0, "h": 178.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Regular Tom",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -312.4, "y": 1869.3}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Sherman Dam",
+    "areaSquare": {"x": -968.0, "y": 2156.0, "w": 488.0, "h": 227.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Sherman Dam",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -907.1, "y": 2017.8}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Las Barrancas",
+    "areaSquare": {"x": -931.0, "y": 1632.0, "w": 211.0, "h": 238.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Las Barrancas",
+      "group": "Смурфики",
+      "fullness": [500, 1000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -778.1, "y": 1548.1}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Battery Point",
+    "areaSquare": {"x": -2742.0, "y": 1490.0, "w": 209.0, "h": 223.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Battery Point",
+      "group": "Смурфики",
+      "fullness": [481, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2643.1, "y": 1343.3}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Palisades",
+    "areaSquare": {"x": -2995.0, "y": 1340.0, "w": 253.0, "h": 881.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Palisades",
+      "group": "Смурфики",
+      "fullness": [481, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2926.2, "y": 855.5}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Juniper Hollow",
+    "areaSquare": {"x": -2533.0, "y": 1360.0, "w": 258.0, "h": 391.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Juniper Hollow",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2434.4, "y": 1214.5}
+    }
+  },
+  {
+    "object": "area",
+    "name": "City Hall",
+    "areaSquare": {"x": -2995.0, "y": 459.0, "w": 402.0, "h": 183.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "City Hall",
+      "group": "Смурфики",
+      "fullness": [487, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2829.3, "y": 426.1}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Missionary Hill",
+    "areaSquare": {"x": -2994.0, "y": -432.0, "w": 822.0, "h": 379.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Missionary Hill",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2513.7, "y": -683.7}
+    }
+  },
+  {
+    "object": "area",
+    "name": "The Panopticon",
+    "areaSquare": {"x": -947.0, "y": 326.0, "w": 627.0, "h": 630.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "The Panopticon",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -563.5, "y": -163.2}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Blueberry Acres",
+    "areaSquare": {"x": -320.0, "y": 292.0, "w": 423.0, "h": 515.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Blueberry Acres",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -146.1, "y": -201.7}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Esplanade North",
+    "areaSquare": {"x": -1984.0, "y": 1579.0, "w": 460.0, "h": 305.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Esplanade North",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -1865.2, "y": 1407.7}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Easter Basin",
+    "areaSquare": {"x": -1794.0, "y": 579.0, "w": 576.0, "h": 314.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Easter Basin",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -1527.9, "y": 437.5}
+    }
+  },
+  {
+    "object": "area",
+    "name": "San Fierro Docks",
+    "areaSquare": {"x": -1794.0, "y": 265.0, "w": 323.0, "h": 316.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "San Fierro Docks",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -1737.3, "y": 51.5}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Angel Pine",
+    "areaSquare": {"x": -2324.0, "y": -2213.0, "w": 360.0, "h": 370.0},
+    "group": "Одиночка",
+    "tower": {
+      "object": "tower",
+      "name": "Angel Pine",
+      "group": "Одиночка",
+      "fullness": [0, 500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2250.2, "y": -2360.5}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Hampton Barns",
+    "areaSquare": {"x": 653.0, "y": 399.0, "w": 168.0, "h": 183.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Hampton Barns",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 684.6, "y": 290.2}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Montgomery",
+    "areaSquare": {"x": 1121.0, "y": 494.0, "w": 332.0, "h": 374.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Montgomery",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 1199.8, "y": 187.5}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Dillimore",
+    "areaSquare": {"x": 580.0, "y": -404.0, "w": 281.0, "h": 273.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Dillimore",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 697.4, "y": -472.4}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Hilltop Farms",
+    "areaSquare": {"x": 965.0, "y": -217.0, "w": 212.0, "h": 235.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Hilltop Farms",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 1043.1, "y": -344.8}
+    }
+  },
+  {
+    "object": "area",
+    "name": "North Rock",
+    "areaSquare": {"x": 2285.0, "y": -269.0, "w": 485.0, "h": 500.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "North Rock",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2406.3, "y": -644.7}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Los Santos International",
+    "areaSquare": {"x": 1382.0, "y": -2180.0, "w": 708.0, "h": 551.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Los Santos International",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 1973.0, "y": -2218.9}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Ocean Docks South",
+    "areaSquare": {"x": 2374.0, "y": -2331.0, "w": 436.0, "h": 365.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Ocean Docks South",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": 2638.0, "y": -2431.2}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Rodeo",
+    "areaSquare": {"x": 74.0, "y": -1235.0, "w": 572.0, "h": 450.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Rodeo",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 394.4, "y": -1520.5}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Santa Marina Beach",
+    "areaSquare": {"x": 74.0, "y": -1685.0, "w": 572.0, "h": 487.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Santa Marina Beach",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 311.5, "y": -1808.4}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Verona Beach",
+    "areaSquare": {"x": 646.0, "y": -1852.0, "w": 411.0, "h": 321.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Verona Beach",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 1021.6, "y": -1965.9}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Mulholland Intersection",
+    "areaSquare": {"x": 1386.0, "y": -751.0, "w": 424.0, "h": 397.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Mulholland Intersection",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 1592.5, "y": -1019.3}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Blueberry",
+    "areaSquare": {"x": 103.0, "y": 151.0, "w": 276.0, "h": 555.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Blueberry",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 355.3, "y": -40.7}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Fern Ridge",
+    "areaSquare": {"x": 508.0, "y": 120.0, "w": 797.0, "h": 262.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Fern Ridge",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": 940.0, "y": -12.4}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Blackfield Chapel",
+    "areaSquare": {"x": 1326.0, "y": 825.0, "w": 235.0, "h": 227.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Blackfield Chapel",
+      "group": "Смурфики",
+      "fullness": [500, 500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 1386.9, "y": 670.3}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Randolph Industrial Estate",
+    "areaSquare": {"x": 1561.0, "y": 825.0, "w": 264.0, "h": 227.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Randolph Industrial Estate",
+      "group": "Смурфики",
+      "fullness": [500, 500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 1702.5, "y": 717.3}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Last Dime Motel",
+    "areaSquare": {"x": 1825.0, "y": 825.0, "w": 174.0, "h": 277.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Last Dime Motel",
+      "group": "Смурфики",
+      "fullness": [500, 500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 1913.5, "y": 583.4}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Rockshore West",
+    "areaSquare": {"x": 1999.0, "y": 825.0, "w": 538.0, "h": 277.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Rockshore West",
+      "group": "Смурфики",
+      "fullness": [500, 500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2381.9, "y": 569.6}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Rockshore East",
+    "areaSquare": {"x": 2537.0, "y": 943.0, "w": 365.0, "h": 267.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Rockshore East",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": 2723.3, "y": 717.5}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Linden Station",
+    "areaSquare": {"x": 2749.0, "y": 1548.0, "w": 174.0, "h": 350.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Linden Station",
+      "group": "Смурфики",
+      "fullness": [500, 500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2836.0, "y": 1235.8}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Pirates in Mens Pants",
+    "areaSquare": {"x": 1817.0, "y": 1704.0, "w": 211.0, "h": 234.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Pirates in Mens Pants",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 1903.1, "y": 1594.6}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Come-A-Lot",
+    "areaSquare": {"x": 2090.0, "y": 1202.0, "w": 532.0, "h": 259.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Come-A-Lot",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2561.3, "y": 1037.7}
+    }
+  },
+  {
+    "object": "area",
+    "name": "The Camels Toe",
+    "areaSquare": {"x": 2090.0, "y": 1465.7, "w": 550.0, "h": 181.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "The Camels Toe",
+      "group": "Смурфики",
+      "fullness": [500, 500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2457.8, "y": 1265.3}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Royal Casino",
+    "areaSquare": {"x": 2090.0, "y": 1689.9, "w": 348.0, "h": 160.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Royal Casino",
+      "group": "Смурфики",
+      "fullness": [500, 500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2227.8, "y": 1511.4}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Paradiso",
+    "areaSquare": {"x": -2742.0, "y": 1267.0, "w": 209.0, "h": 473.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Paradiso",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": -2696.5, "y": 923.3}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Santa Flora",
+    "areaSquare": {"x": -2742.0, "y": 794.0, "w": 209.0, "h": 335.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Santa Flora",
+      "group": "Смурфики",
+      "fullness": [487, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2591.6, "y": 689.6}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Juniper Hill",
+    "areaSquare": {"x": -2533.0, "y": 969.0, "w": 258.0, "h": 390.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Juniper Hill",
+      "group": "Смурфики",
+      "fullness": [487, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2465.9, "y": 775.7}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Chinatown",
+    "areaSquare": {"x": -2275.0, "y": 745.0, "w": 291.0, "h": 166.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Chinatown",
+      "group": "Смурфики",
+      "fullness": [494, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2149.1, "y": 630.7}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Kings east",
+    "areaSquare": {"x": -1993.0, "y": 579.0, "w": 199.0, "h": 314.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Kings east",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -1973.9, "y": 445.8}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Ocean Flats",
+    "areaSquare": {"x": -2994.0, "y": 276.0, "w": 401.0, "h": 497.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Ocean Flats",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2851.2, "y": -22.4}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Hashbury",
+    "areaSquare": {"x": -2593.0, "y": 55.0, "w": 182.0, "h": 276.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Hashbury",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2530.7, "y": -2.1}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Garcia",
+    "areaSquare": {"x": -2411.0, "y": 265.0, "w": 239.0, "h": 486.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Garcia",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2325.5, "y": -90.6}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Doherty",
+    "areaSquare": {"x": -2172.0, "y": 265.0, "w": 378.0, "h": 590.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Doherty",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": -2089.6, "y": 58.9}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Avispa Country Club",
+    "areaSquare": {"x": -2994.0, "y": -221.0, "w": 822.0, "h": 211.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Avispa Country Club",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -2518.4, "y": -255.8}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Foster Valley",
+    "areaSquare": {"x": -2172.0, "y": -325.0, "w": 378.0, "h": 924.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Foster Valley",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": -2023.7, "y": -859.3}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Easter Bay Airport",
+    "areaSquare": {"x": -1794.0, "y": -51.0, "w": 661.0, "h": 678.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Easter Bay Airport",
+      "group": "Смурфики",
+      "fullness": [500, 500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": -1575.1, "y": -668.3}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Richman",
+    "areaSquare": {"x": 74.0, "y": -677.0, "w": 572.0, "h": 558.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Richman",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": 341.3, "y": -1044.1}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Marina",
+    "areaSquare": {"x": 646.0, "y": -1133.0, "w": 306.0, "h": 525.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Marina",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": 692.0, "y": -1572.6}
+    }
+  },
+  {
+    "object": "area",
+    "name": "West Mulholland",
+    "areaSquare": {"x": 646.0, "y": -677.0, "w": 215.0, "h": 277.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "West Mulholland",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 794.0, "y": -843.9}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Playa del Seville",
+    "areaSquare": {"x": 2704.0, "y": -1852.0, "w": 255.0, "h": 328.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Playa del Seville",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2771.2, "y": -2032.3}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Willowfield",
+    "areaSquare": {"x": 1970.0, "y": -1852.0, "w": 734.0, "h": 328.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Willowfield",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2084.3, "y": -2051.8}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Ocean Docs North",
+    "areaSquare": {"x": 2090.0, "y": -2180.0, "w": 869.0, "h": 121.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Ocean Docs North",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2625.0, "y": -2191.6}
+    }
+  },
+  {
+    "object": "area",
+    "name": "El Corona",
+    "areaSquare": {"x": 1692.0, "y": -1852.0, "w": 278.0, "h": 328.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "El Corona",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 1783.0, "y": -2032.8}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Los Flores",
+    "areaSquare": {"x": 2583.0, "y": -1122.0, "w": 376.0, "h": 272.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Los Flores",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2939.7, "y": -1367.5}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Ganton",
+    "areaSquare": {"x": 2233.0, "y": -1628.0, "w": 350.0, "h": 224.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Ganton",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2478.1, "y": -1773.1}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Market",
+    "areaSquare": {"x": 941.8, "y": -1024.9, "w": 433.6, "h": 422.5},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Market",
+      "group": "Смурфики",
+      "fullness": [500, 1500],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 1137.3, "y": -1453.0}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Pershing Square",
+    "areaSquare": {"x": 1388.6, "y": -1439.0, "w": 306.0, "h": 412.9},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Pershing Square",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 1500],
+      "type": 0,
+      "coords": {"x": 1470.6, "y": -1660.5}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Little Mexico",
+    "areaSquare": {"x": 1692.0, "y": -1439.0, "w": 118.0, "h": 412.9},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Little Mexico",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 1797.4, "y": -1704.0}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Idlewood",
+    "areaSquare": {"x": 1807.0, "y": -1449.0, "w": 425.9, "h": 402.7},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Idlewood",
+      "group": "Смурфики",
+      "fullness": [250, 250],
+      "rezerv": [0, 0],
+      "type": 1,
+      "coords": {"x": 1913.8, "y": -1680.4}
+    }
+  },
+  {
+    "object": "area",
+    "name": "East Los Santos",
+    "areaSquare": {"x": 2233.0, "y": -1122.0, "w": 350.0, "h": 506.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "East Los Santos",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2530.4, "y": -1471.1}
+    }
+  },
+  {
+    "object": "area",
+    "name": "Jefferson",
+    "areaSquare": {"x": 2032.0, "y": -1122.0, "w": 185.0, "h": 327.0},
+    "group": "Смурфики",
+    "tower": {
+      "object": "tower",
+      "name": "Jefferson",
+      "group": "Смурфики",
+      "fullness": [500, 2000],
+      "rezerv": [0, 500],
+      "type": 0,
+      "coords": {"x": 2145.8, "y": -1191.6}
+    }
+  }
+]

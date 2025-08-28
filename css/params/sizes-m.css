@@ -1,0 +1,22 @@
+@media (max-width: 1599px) and (min-width: 770px) {
+  :root {
+    /* standart elements */
+
+    --size--button-pv: 7px;
+    --size--button-ph: 23px;
+    --size--button-br: 15px;
+  
+    --size--button-icon-w: 40px;
+    --size--button-icon-br: 15px;
+
+    --size--input-pv: 10px;
+    --size--input-ph: 23px;
+    --size--input-br: 15px;
+
+    --size--shaped-link-pl: 30px;
+    --size--shaped-link-pt: 27px;
+    --size--shaped-link-g: 15px;
+    --size--shaped-link-pt-mini: 29px;
+    --size--shaped-link-g-mini: 15px;
+  }
+}

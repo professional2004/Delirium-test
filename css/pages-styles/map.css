@@ -1,0 +1,189 @@
+
+.c-section.map .c-content {
+  padding: 50px 0px 100px;
+}
+
+.c-section.map .map {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+  user-select: none;
+}
+
+.c-section.map .map .scale-buttons-block {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+}
+
+.c-section.map .map .scale-button {
+  width: 80px;
+  height: 70px;
+  background-color: #1C1920;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-section.map .map .scale-button:hover {
+  background-color: #27242c;
+}
+
+.c-section.map .map .scale-button:active {
+  background-color: #312d36;
+}
+
+.c-section.map .map .scale-button.more {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.c-section.map .map .scale-button.less {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.c-section.map .map .scale-button .svg-wrapper.scale-icon {
+  width: 20px;
+  color: #ffffff;
+}
+
+.c-section.map .map .minimap-block {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 150px;
+  height: fit-content;
+}
+
+.c-section.map .map .minimap-block .minimap {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../materials/images/map/map.jpg");
+  background-size: contain;
+  background-position: center center;
+}
+
+.c-section.map .map .minimap-block .minimap-viewbox {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+/* map-viewbox */
+
+.c-section.map .map .map-viewbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.c-section.map .map .map-content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+} 
+
+.c-section.map .map .map-layer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.c-section.map .map .map-layer.image .img {
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+.c-section.map .map .map-layer.objects {
+  pointer-events: none;
+}
+
+.c-section.map .map .map-layer.objects .object,
+.c-section.map .map .map-layer.objects .object-area {
+  pointer-events: all;
+}
+
+.c-section.map .map .map-layer.objects .object {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.c-section.map .map .map-layer.objects .object .object-button {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .c-section.map .map .map-layer.objects .object .object-button .object-button-shadow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0px;
+  height: 0px;
+  box-shadow: 0 0 10px 10px #00000083;
+  z-index: 100;
+} */
+
+.c-section.map .map .map-layer.objects .object .object-button:hover {
+  background-color: var(--color--orange);
+}
+
+.c-section.map .map .map-layer.objects .object .object-button .svg-wrapper.icon-image {
+  width: 26px;
+  height: 26px;
+  /* z-index: 200; */
+}
+
+
+.c-section.map .map .map-layer.objects .object-area {
+  position: absolute;
+}
+
+
+.c-section.map .map .display-block {
+  position: absolute;
+  display: none;
+  right: 20px;
+  bottom: 20px;
+  padding: 20px;
+  background-color: #27242c;
+  border-radius: 10px;
+}
+
+.c-section.map .map .display-block .parameter {
+  display: flex;
+  gap: 10px;
+}
+
+.c-section.map .map .display-block .button-close {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.c-section.map .map .display-block .button-close .svg-wrapper {
+  width: 14px;
+  height: 14px;
+  color: #ffffff;
+}

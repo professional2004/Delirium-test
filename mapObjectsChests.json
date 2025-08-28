@@ -1,0 +1,27 @@
+[
+  {
+    "object": "chest",
+    "name": 1,
+    "coords": {"x": -2116.1, "y": -2476.2}
+  },
+  {
+    "object": "chest",
+    "name": 2,
+    "coords": {"x": 226.0, "y": 1862.6}
+  },
+  {
+    "object": "chest",
+    "name": 3,
+    "coords": {"x": 1400.6, "y": 2204.4}
+  },
+  {
+    "object": "chest",
+    "name": 4,
+    "coords": {"x": 269.1, "y": 1860.0}
+  },
+  {
+    "object": "chest",
+    "name": 5,
+    "coords": {"x": -2420.3, "y": -2838.8}
+  }
+]

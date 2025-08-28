@@ -1,0 +1,156 @@
+[
+  {
+    "object": "trader",
+    "name": "Alex",
+    "shop": "Охотник за артефактами",
+    "skinId": 70,
+    "coords": {"x": 413.7, "y": 2537.7}
+  },
+  {
+    "object": "trader",
+    "name": "Fraed",
+    "shop": "Бармен",
+    "skinId": 44,
+    "coords": {"x": 205.4, "y": 1873.8}
+  },
+  {
+    "object": "trader",
+    "name": "Reballerrpt",
+    "shop": "Торговец",
+    "skinId": 50,
+    "coords": {"x": 816.2, "y": 856.4}
+  },
+  {
+    "object": "trader",
+    "name": "Daniel",
+    "shop": "Медик Сан Фиерро",
+    "skinId": 70,
+    "coords": {"x": -1969.2, "y": 132.4}
+  },
+  {
+    "object": "trader",
+    "name": "Joshua",
+    "shop": "Перекупщик",
+    "skinId": 299,
+    "coords": {"x": -1971.3, "y": 129.2}
+  },
+  {
+    "object": "trader",
+    "name": "Klark",
+    "shop": "Торговец",
+    "skinId": 159,
+    "coords": {"x": -753.9, "y": -128.1}
+  },
+  {
+    "object": "trader",
+    "name": "Reballerr",
+    "shop": "Временно продает барели со смесью",
+    "skinId": 50,
+    "coords": {"x": -155.1, "y": -279.1}
+  },
+  {
+    "object": "trader",
+    "name": "Bob",
+    "shop": "Торговец",
+    "skinId": 132,
+    "coords": {"x": 92.2, "y": -195.7}
+  },
+  {
+    "object": "trader",
+    "name": "Maksim",
+    "shop": "Торговец большой рыбой",
+    "skinId": 133,
+    "coords": {"x": 1316.0, "y": -262.0}
+  },
+  {
+    "object": "trader",
+    "name": "Denis",
+    "shop": "Торговец удочками и приманкой",
+    "skinId": 159,
+    "coords": {"x": 1337.8, "y": -289.6}
+  },
+  {
+    "object": "trader",
+    "name": "Andrey",
+    "shop": "Торговец большой рыбой",
+    "skinId": 133,
+    "coords": {"x": 1355.0, "y": -259.0}
+  },
+  {
+    "object": "trader",
+    "name": "Kony",
+    "shop": "Торговец улучшениями для группировок",
+    "skinId": 73,
+    "coords": {"x": 2323.9, "y": 67.1}
+  },
+  {
+    "object": "trader",
+    "name": "Arny",
+    "shop": "Торговец улучшениями для экипировки",
+    "skinId": 103,
+    "coords": {"x": 2315.0, "y": 68.0}
+  },
+  {
+    "object": "trader",
+    "name": "Sasha",
+    "shop": "Торговец улучшениями для оружия",
+    "skinId": 30,
+    "coords": {"x": 2316.3, "y": 62.4}
+  },
+  {
+    "object": "trader",
+    "name": "Frederico",
+    "shop": "Контрабандист",
+    "skinId": 250,
+    "coords": {"x": 2443.2, "y": -1979.8}
+  },
+  {
+    "object": "trader",
+    "name": "Jack",
+    "shop": "Торговец оружием",
+    "skinId": 179,
+    "coords": {"x": -2154.6, "y": -2270.1}
+  },
+  {
+    "object": "trader",
+    "name": "Jinx",
+    "shop": "Торговец повязками",
+    "skinId": 217,
+    "coords": {"x": -2151.7, "y": -2266.5}
+  },
+  {
+    "object": "trader",
+    "name": "Josh",
+    "shop": "Торговец артефактами",
+    "skinId": 70,
+    "coords": {"x": -2159.1, "y": -2282.3}
+  },
+  {
+    "object": "trader",
+    "name": "Mike",
+    "shop": "Магазин для новичка",
+    "skinId": 6,
+    "coords": {"x": -2111.2, "y": -2407.0}
+  },
+  {
+    "object": "trader",
+    "name": "Fred",
+    "shop": "Торговец едой",
+    "skinId": 7,
+    "coords": {"x": -2104.2, "y": -2462.8}
+  },
+  {
+    "object": "trader",
+    "name": "Paul",
+    "shop": "Торговец инвентарем",
+    "skinId": 183,
+    "coords": {"x": -2096.8, "y": -2468.6}
+  },
+  {
+    "object": "trader",
+    "name": "Kate",
+    "shop": "Торговец платиной",
+    "skinId": 192,
+    "coords": {"x": -2101.4, "y": -2475.9}
+  }
+]

@@ -1,0 +1,22 @@
+:root {
+
+  /* standart elements */
+
+  --size--button-pv: 12px;
+  --size--button-ph: 28px;
+  --size--button-br: 20px;
+  
+  --size--button-icon-w: 50px;
+  --size--button-icon-br: 20px;
+
+  --size--input-pv: 15px;
+  --size--input-ph: 28px;
+  --size--input-br: 20px;
+
+  --size--shaped-link-pl: 40px;
+  --size--shaped-link-pt: 40px;
+  --size--shaped-link-g: 14px;
+  --size--shaped-link-pt-mini: 30px;
+  --size--shaped-link-g-mini: 8px;
+
+}

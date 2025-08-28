@@ -1,0 +1,33 @@
+.c-section.wiki {
+  /* params */
+  --section-wiki--container-grid-temp-cols: repeat(3, 1fr);
+}
+
+@media (max-width: 1599px) and (min-width: 770px) {
+  .c-section.wiki {
+    --section-wiki--container-grid-temp-cols: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 769px) {
+  .c-section.wiki {
+    --section-wiki--container-grid-temp-cols: repeat(1, 1fr);
+  }
+}
+
+.c-section.wiki .c-content {
+  padding: 50px 0px 100px;
+}
+
+
+.c-section.wiki .category-container {
+  display: grid;
+  grid-template-columns: var(--section-wiki--container-grid-temp-cols);
+  grid-auto-rows: 1fr;
+  gap: 30px;
+}
+
+.c-section.wiki .category-container .s-shaped-link.category-card {
+  width: 100%;
+  height: 100%;
+}

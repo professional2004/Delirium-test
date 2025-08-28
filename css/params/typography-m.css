@@ -1,0 +1,119 @@
+@media (max-width: 1599px) and (min-width: 770px) {
+  :root {
+
+    --font-fs--standart: 20px;
+    --font-lh--standart: 20px;
+
+
+
+
+
+
+    /* index - hero-section title */
+    --font-fs--ihst: 35px;
+    --font-lh--ihst: 42px;
+
+    /* index - section-more-details title */
+    --font-fs--ismdt: 30px;
+    --font-lh--ismdt: 36px;
+
+    /* footer - s-links */
+    --font-fs--fsl: 16px;
+    --font-lh--fsl: 21px;
+
+    /* p text */
+    --font-fs--pt: 18px;
+    --font-lh--pt: 23px;
+
+    /* index section-faq title */
+    --font-fw--index-section-faq-title: 600;
+    --font-fs--index-section-faq-title: 20px;
+    --font-lh--index-section-faq-title: 26px;
+
+    /* top-up-bill form-title -- none */
+
+    /* top-up-bill menu-block title -- none */
+
+    /* top-up-bill menu-block text-payment-course -- none */
+
+    /* top-up-bill menu-block item text -- none */
+
+    /* transport transport-card title */
+    --font-fs--transport--transport-card-title: 14px;
+    --font-lh--transport--transport-card-title: 18px;
+
+    /* transport transport-card text */
+    --font-fs--transport--transport-card-text: 18px;
+    --font-lh--transport--transport-card-text: 23px;
+
+    /* personal-account settings-block title -- none */
+
+    /* personal-account settings-block text -- none */
+
+    /* personal-account statistics-block title -- none */
+
+    /* personal-account statistics-block text-name -- none */
+
+    /* personal-account statistics-block text-value -- none */
+
+    /* list-of-players players-display header -- none */
+
+    /* list-of-players players-display player -- none */
+
+
+    /* ---------------------------------- */
+
+
+    /* section title */
+    --font-fs--section-title: 30px;
+    --font-lh--section-title: 36px;
+
+    /* button */
+    --font-fs--button: 18px;
+    --font-lh--button: 32px;
+
+    /* button-border */
+    --font-fs--button-border: 18px;
+    --font-lh--button-border: 32px;
+
+    /* checkbox -- none */
+    
+    /* input (email, password, search) -- none */
+
+    /* input-placeholder (email, password) -- none */
+
+    /* input-message (email, password) -- none */
+
+    /* header-link -- none */
+
+    /* section card-title */
+    --font-fs--section-card-title: 20px;
+    --font-lh--section-card-title: 26px;
+
+    /* section card-text */
+    --font-fs--section-card-text: 18px;
+    --font-lh--section-card-text: 23px;
+
+    /* section micro-card-title */
+    --font-fs--section-micro-card-title: 18px;
+    --font-lh--section-micro-card-title: 23px;
+
+    /* section micro-card-text */
+    --font-fs--section-micro-card-text: 16px;
+    --font-lh--section-micro-card-text: 21px;
+
+    /* shaped-link title */
+    --font-fs--shaped-link-title: 20px;
+    --font-lh--shaped-link-title: 26px;
+
+    /* shaped-link text */
+    --font-fs--shaped-link-text: 18px;
+    --font-lh--shaped-link-text: 23px;
+
+    /* shaped-link text */
+    --font-fs--shaped-link-text-mini: 16px;
+    --font-lh--shaped-link-text-mini: 21px;
+
+
+  }
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "object": "npc",
+    "name": "Валера",
+    "skinId": 102,
+    "coords": {"x": 1394.7, "y": 2208.1}
+  },
+  {
+    "object": "npc",
+    "name": "Арена",
+    "skinId": 28,
+    "coords": {"x": 1399.3, "y": 2205.8}
+  },
+  {
+    "object": "npc",
+    "name": "Locky",
+    "skinId": 50,
+    "coords": {"x": 296.4, "y": 2036.7}
+  },
+  {
+    "object": "npc",
+    "name": "Артур",
+    "skinId": 46,
+    "coords": {"x": 210.0, "y": 1861.3}
+  },
+  {
+    "object": "npc",
+    "name": "Shell",
+    "skinId": 106,
+    "coords": {"x": 222.0, "y": 1869.5}
+  },
+  {
+    "object": "npc",
+    "name": "Reskiller",
+    "skinId": 170,
+    "coords": {"x": 215.5, "y": 1852.8}
+  },
+  {
+    "object": "npc",
+    "name": "Пропавший",
+    "skinId": 119,
+    "coords": {"x": 1354.7, "y": 565.4}
+  },
+  {
+    "object": "npc",
+    "name": "Дед Рыбак",
+    "skinId": 212,
+    "coords": {"x": 1335.3, "y": -269.8}
+  },
+  {
+    "object": "npc",
+    "name": "Carl",
+    "skinId": 122,
+    "coords": {"x": -2100.3, "y": -2236.1}
+  },
+  {
+    "object": "npc",
+    "name": "Gear",
+    "skinId": 98,
+    "coords": {"x": -2148.2, "y": -2275.4}
+  },
+  {
+    "object": "npc",
+    "name": "Dummy",
+    "skinId": 122,
+    "coords": {"x": -2221.2, "y": -2337.2}
+  },
+  {
+    "object": "npc",
+    "name": "Сидорович",
+    "skinId": 179,
+    "coords": {"x": -2180.8, "y": -2431.5}
+  },
+  {
+    "object": "npc",
+    "name": "GarbageCollector",
+    "skinId": 1,
+    "coords": {"x": 223.2, "y": 1851.8}
+  }
+]

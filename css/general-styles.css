@@ -1,0 +1,432 @@
+body {
+  background-color: var(--color--background);
+  color: #ffffff;
+  overflow-x: hidden;
+  font-family: var(--font-ff--standart);
+  font-weight: var(--font-fw--standart);
+  font-size: var(--font-fs--standart);
+  line-height: var(--font-lh--standart);
+  letter-spacing: var(--font-ls--standart);
+}
+
+button, a {
+  color: #ffffff;
+}
+
+
+.c-main-sections {
+  width: 100%;
+  height: fit-content;
+  /* screen height - header height - footer height */
+  min-height: calc(100vh - 89px - 267px);
+}
+
+.c-section {
+  width: 100%;
+  min-width: 320px;
+}
+
+.c-section .c-content {
+  height: 100%;
+  margin: 0px auto;
+  width: 80%;
+  max-width: 1410px;
+  min-width: 300px;
+}
+
+
+
+
+/* ---- js-openable ---- */
+
+
+.js-openable .js-openable-content,
+.js-modal-openable .js-modal-openable-content { 
+  display: none; 
+  z-index: 10000;
+}
+
+.js-openable .js-openable-backdrop,
+.js-modal-openable .js-modal-openable-backdrop {
+  display: none; 
+  cursor: default;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  z-index: 10000;
+}
+
+.js-openable .js-openable-button {
+  cursor: pointer;
+}
+
+.js-openable.open .js-openable-content,
+.js-modal-openable.open .js-modal-openable-content { 
+  display: block; 
+}
+
+.js-openable.open .js-openable-backdrop,
+.js-modal-openable.open .js-modal-openable-backdrop { 
+  display: block; 
+}
+
+
+
+/* ---- svg ---- */
+
+
+.svg-sprite {
+  display: none;
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+}
+
+
+.svg-wrapper {
+  display: inline-flex;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+
+
+/* ---- section header ---- */
+
+
+.c-section.header {
+  /* params */
+  --header--delirium-logo-size: 66px;
+  --header--message-icons-w: 27px;
+}
+
+@media (max-width: 1599px) and (min-width: 770px) {
+  .c-section.header {
+    --header--delirium-logo-size: 58px;
+  }
+}
+
+@media (max-width: 769px)  {
+  .c-section.header {
+    --header--delirium-logo-size: 43px;
+    --header--message-icons-w: 17px;
+  }
+}
+
+.c-section.header .c-content {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+}
+
+/* header delirium-logo */
+
+.c-section.header .s-link.delirium-logo {
+  width: var(--header--delirium-logo-size);
+}
+
+/* header nav links */
+
+.c-section.header .links-container {
+  width: 100%;
+  max-width: 661px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* header messengers */
+
+.c-section.header .messengers-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  margin-right: 40px;
+}
+
+.c-section.header .s-link.svg-wrapper.messenger { 
+  width: var(--header--message-icons-w);
+  color: #8B8B8B; 
+}
+
+.c-section.header .s-link.svg-wrapper.messenger:hover,
+.c-section.header .s-link.svg-wrapper.messenger:active {
+  color: #ffffff;
+}
+
+/* button-login */
+
+.c-section.header .button-login-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+
+@media (min-width: 770px) {
+  .c-section.header .button-login-wrapper .s-button.login.small {
+    display: none;
+  }  
+}
+
+@media (max-width: 769px) {
+  .c-section.header .button-login-wrapper .s-button.login.medium-large {
+    display: none;
+  } 
+}
+
+.c-section.header .button-login-wrapper .s-button.login.icon {
+  background-color: var(--color--orange);
+}
+
+/* burger-menu */
+
+.c-section.header .s-burger-menu {
+  margin-left: 20px;
+}
+
+
+@media (min-width: 1600px) {
+  .c-section.header .s-burger-menu {
+    display: none;
+  }  
+}
+
+@media (max-width: 1599px) {
+  .c-section.header .links-container {
+    display: none;
+  } 
+}
+
+
+
+
+/* ---- section ---- */
+
+.c-section-title {
+  margin-bottom: 40px;
+  font-family: var(--font-ff--titles);
+  font-weight: var(--font-fw--section-title);
+  font-size: var(--font-fs--section-title);
+  line-height: var(--font-lh--section-title);
+  letter-spacing: var(--font-ls--section-title);
+}
+
+
+
+
+
+
+/* ---- section footer ---- */
+
+
+.c-section.footer {
+  /* params */
+  --footer--delirium-logo-size: 66px;
+  --footer--message-icons-w: 27px;
+  --footer--info-group-title-mt: 30px;
+}
+
+@media (max-width: 1599px) and (min-width: 770px) {
+  .c-section.footer {
+    --footer--delirium-logo-size: 58px;
+  }
+}
+
+@media (max-width: 769px)  {
+  .c-section.footer {
+    --footer--delirium-logo-size: 41px;
+    --footer--message-icons-w: 17px;
+    --footer--info-group-title-mt: 50px;
+  }
+}
+
+.c-section.footer {
+  background-color: #1C1920;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.c-section.footer .c-content {
+  padding: 30px 0px;
+}
+
+/* info-groups container */
+
+.c-section.footer .info-groups-container {
+  /* params */
+  --footer--info-groups-container-grid-template-areas: "logo players info contacts"; 
+}
+
+@media (max-width: 1199px) and (min-width: 830px) {
+  .c-section.footer .info-groups-container {
+    /* params */
+    --footer--info-groups-container-grid-template-areas: "logo     players info" 
+                                                         "contacts players info"; 
+  }
+}
+
+@media (max-width: 829px) {
+  .c-section.footer .info-groups-container {
+    /* params */
+    --footer--info-groups-container-grid-template-areas: "logo" 
+                                                         "players" 
+                                                         "info" 
+                                                         "contacts"; 
+  }
+}
+
+.c-section.footer .info-groups-container {
+  display: grid;
+  justify-content: space-between;
+  grid-template-areas: var(--footer--info-groups-container-grid-template-areas); 
+}
+
+
+.c-section.footer .info-group.logo { grid-area: logo; }
+.c-section.footer .info-group.links.to-players { grid-area: players; }
+.c-section.footer .info-group.links.info { grid-area: info; }
+.c-section.footer .info-group.contacts { grid-area: contacts; }
+
+.c-section.footer .info-group {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* info-group logo */
+
+.c-section.footer .info-group.logo .s-link.svg-wrapper.delirium-logo {
+  width: var(--footer--delirium-logo-size);
+}
+
+.c-section.footer .info-group.logo .text { 
+  color: #676767;  
+  font-weight: var(--font-fw--flt);
+  font-size: var(--font-fs--flt);
+  line-height: var(--font-lh--flt);
+}
+
+/* other info-groups */
+
+.c-section.footer .info-group .title { 
+  color: #ffffff; 
+  margin-top: var(--footer--info-group-title-mt);
+  margin-bottom: 10px;
+  font-weight: var(--font-fw--flgt);
+  font-size: var(--font-fs--flgt);
+  line-height: var(--font-lh--flgt);
+}
+
+.c-section.footer .info-group.links .s-link {
+  font-size: var(--font-fs--fsl);
+  line-height: var(--font-lh--fsl);
+}
+
+.c-section.footer .messengers-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.c-section.footer .s-link.svg-wrapper.messenger {
+  width: var(--footer--message-icons-w);
+  color: #8B8B8B; 
+}
+
+.c-section.footer .text.copyright {
+  display: inline-block;
+  width: 100%;
+  margin-top: var(--footer--info-group-title-mt);
+  text-align: center;
+  color: #676767;
+  font-weight: var(--font-fw--fc);
+  font-size: var(--font-fs--fc);
+  line-height: var(--font-lh--fc);
+}
+
+.c-section.footer .text.copyright .bolder { 
+  font-weight: 700; 
+}
+
+
+
+
+
+
+/* ----- s-modal ----- */
+
+.s-modal .modal-backdrop {
+  background-color: #0000006c;
+}
+
+.s-modal .modal-content {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.s-modal .modal-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 380px;
+  border-radius: 30px;
+  padding: 25px 20px;
+  background-color: #11071C;
+}
+
+.s-modal .modal-title {
+  width: 100%;
+  text-align: center;
+  font-weight: var(--font-fw--modal-window-title);
+  font-size: var(--font-fs--modal-window-title);
+  line-height: var(--font-lh--modal-window-title);
+}
+
+.s-modal .s-input,
+.s-modal .layout,
+.s-modal .s-button {
+  width: 100%;
+}
+
+.s-modal .button-close {
+  position: absolute;
+  top: 0px;
+  right: -40px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-modal .button-close .svg-wrapper {
+  width: 20px;
+}
+
+.s-modal.authorisation .s-link {
+  font-size: var(--font-fs--modal-window-link);
+  line-height: var(--font-lh--modal-window-link);
+}
+
+.s-modal.authorisation .layout {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.s-modal.recovery .text {
+  font-size: var(--font-fs--modal-window-text);
+  line-height: var(--font-lh--modal-window-text);
+}

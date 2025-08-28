@@ -1,0 +1,201 @@
+:root {
+  --font-ff--titles: "Balsamic Sans", serif;
+  --font-ff--standart: "IBM Plex Sans", serif;
+  --font-fw--standart: 400;
+  --font-fs--standart: 20px;
+  --font-lh--standart: 20px;
+  --font-ls--standart: 0px;
+
+
+
+
+
+  /* index - hero-section title */
+  --font-fw--ihst: 700;
+  --font-fs--ihst: 50px;
+  --font-lh--ihst: 60px;
+  --font-ls--ihst: 8px;
+
+  /* index - section-more-details title */
+  --font-fw--ismdt: 700;
+  --font-fs--ismdt: 45px;
+  --font-lh--ismdt: 54px;
+  --font-ls--ismdt: 8px;
+
+  /* footer - s-links */
+  --font-fs--fsl: 18px;
+  --font-lh--fsl: 23px;
+
+  /* footer - logo text */
+  --font-fw--flt: 500px;
+  --font-fs--flt: 18px;
+  --font-lh--flt: 23px;
+
+  /* footer - link-groups titles */
+  --font-fw--flgt: 600px;
+  --font-fs--flgt: 18px;
+  --font-lh--flgt: 23px;
+
+  /* footer - copyright */
+  --font-fw--fc: 500px;
+  --font-fs--fc: 15px;
+  --font-lh--fc: 20px;
+
+  /* p text */
+  --font-fs--pt: 20px;
+  --font-lh--pt: 26px;
+
+  /* index section-faq title */
+  --font-fw--index-section-faq-title: 500;
+  --font-fs--index-section-faq-title: 22px;
+  --font-lh--index-section-faq-title: 29px;
+
+  /* top-up-bill form-title */
+  --font-ff--top-up-bill-form-title: "IBM Plex Sans", serif;
+  --font-fw--top-up-bill-form-title: 500;
+  --font-fs--top-up-bill-form-title: 35px;
+  --font-lh--top-up-bill-form-title: 49px;
+  --font-ls--top-up-bill-form-title: 0px;
+  --font-tt--top-up-bill-form-title: none;
+
+  /* top-up-bill menu-block title */
+  --font-fw--top-up-bill-menu-block-title: 600;
+  --font-fs--top-up-bill-menu-block-title: 25px;
+  --font-lh--top-up-bill-menu-block-title: 33px;
+
+  /* top-up-bill menu-block text-payment-course */
+  --font-fw--top-up-bill-menu-block-text-payment-course: 600;
+  --font-fs--top-up-bill-menu-block-text-payment-course: 18px;
+  --font-lh--top-up-bill-menu-block-text-payment-course: 22px;
+
+  /* top-up-bill menu-block item text */
+  --font-fs--top-up-bill-menu-block-item-text: 20px;
+  --font-lh--top-up-bill-menu-block-item-text: 24px;
+
+  /* transport transport-card title */
+  --font-fw--transport--transport-card-title: 500;
+  --font-fs--transport--transport-card-title: 16px;
+  --font-lh--transport--transport-card-title: 21px;
+
+  /* transport transport-card text */
+  --font-fw--transport--transport-card-text: 700;
+  --font-fs--transport--transport-card-text: 30px;
+  --font-lh--transport--transport-card-text: 39px;
+
+  /* personal-account settings-block title */
+  --font-fw--personal-account--settings-block--title: 500;
+  --font-fs--personal-account--settings-block--title: 30px;
+  --font-lh--personal-account--settings-block--title: 42px;
+
+  /* personal-account settings-block text */
+  --font-fs--personal-account--settings-block--text: 18px;
+  --font-lh--personal-account--settings-block--text: 22px;
+
+  /* personal-account statistics-block title */
+  --font-fw--personal-account--statistics-block--title: 500;
+  --font-fs--personal-account--statistics-block--title: 20px;
+  --font-lh--personal-account--statistics-block--title: 24px;
+
+  /* personal-account statistics-block text-name */
+  --font-fs--personal-account--statistics-block--text-name: 16px;
+  --font-lh--personal-account--statistics-block--text-name: 24px;
+
+  /* personal-account statistics-block text-value */
+  --font-fw--personal-account--statistics-block--text-value: 700;
+  --font-fs--personal-account--statistics-block--text-value: 16px;
+  --font-lh--personal-account--statistics-block--text-value: 24px;
+
+  /* list-of-players players-display header */
+  --font-fw--list-of-players--display--header: 500;
+  --font-fs--list-of-players--display--header: 20px;
+  --font-lh--list-of-players--display--header: 24px;
+
+  /* list-of-players players-display player */
+  --font-fs--list-of-players--display--player: 16px;
+  --font-lh--list-of-players--display--player: 24px;
+
+
+  /* upper - uniqe font rules, lower - standart font rules */
+  /* ---------------------------------- */
+
+
+  /* section title */
+  --font-fw--section-title: 700;
+  --font-fs--section-title: 40px;
+  --font-lh--section-title: 48px;
+  --font-ls--section-title: 8px;
+
+  /* button */
+  --font-fs--button: 22px;
+  --font-lh--button: 32px;
+
+  /* button-border */
+  --font-fs--button-border: 20px;
+  --font-lh--button-border: 32px;
+
+  /* checkbox */
+  --font-fs--checkbox: 16px;
+  --font-lh--checkbox: 19px;
+
+  /* input (email, password, search) */
+  --font-fs--input: 20px;
+  --font-lh--input: 26px;
+
+  /* input-placeholder (email, password) */
+  --font-fs--input-placeholder: 18px;
+  --font-lh--input-placeholder: 22px;
+
+  /* input-message (email, password) */
+  --font-fw--input-message: 500;
+  --font-fs--input-message: 16px;
+  --font-lh--input-message: 20px;
+
+  /* header-link */
+  --font-fs--header-link: 20px;
+  --font-lh--header-link: 26px;
+
+  /* section card-title */
+  --font-fw--section-card-title: 600;
+  --font-fs--section-card-title: 25px;
+  --font-lh--section-card-title: 33px;
+
+  /* section card-text */
+  --font-fs--section-card-text: 22px;
+  --font-lh--section-card-text: 29px;
+
+  /* section micro-card-title */
+  --font-fw--section-micro-card-title: 600;
+  --font-fs--section-micro-card-title: 20px;
+  --font-lh--section-micro-card-title: 26px;
+
+  /* section micro-card-text */
+  --font-fs--section-micro-card-text: 18px;
+  --font-lh--section-micro-card-text: 23px;
+
+  /* shaped-link title */
+  --font-fw--shaped-link-title: 600;
+  --font-fs--shaped-link-title: 25px;
+  --font-lh--shaped-link-title: 33px;
+
+  /* shaped-link text */
+  --font-fs--shaped-link-text: 20px;
+  --font-lh--shaped-link-text: 26px;
+
+  /* shaped-link text */
+  --font-fs--shaped-link-text-mini: 20px;
+  --font-lh--shaped-link-text-mini: 26px;
+
+  /* modal-window title */
+  --font-fw--modal-window-title: 500;
+  --font-fs--modal-window-title: 35px;
+  --font-lh--modal-window-title: 49px;
+
+  /* modal-window text */
+  --font-fs--modal-window-text: 17px;
+  --font-lh--modal-window-text: 1.2;
+
+  /* modal-window link */
+  --font-fs--modal-window-link: 16px;
+  --font-lh--modal-window-link: 1.2;
+
+}

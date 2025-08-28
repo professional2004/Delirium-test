@@ -1,0 +1,84 @@
+
+.c-section.players-list .c-content {
+  padding: 50px 0px 100px;
+}
+
+.c-section.players-list .display .row {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+
+
+
+
+
+
+.c-section.players-list .players-display {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.c-section.players-list .players-display .row .column {
+  padding: 20px 30px;
+  text-align: left;
+}
+
+.c-section.players-list .players-display .row .column:first-child {
+  padding-left: 60px;
+}
+.c-section.players-list .players-display .row .column:last-child {
+  padding-right: 60px;
+}
+
+.c-section.players-list .players-display .row.header {
+  background-color: var(--color--orange);
+  border-radius: 20px;
+}
+
+.c-section.players-list .players-display .row.header .column {
+  font-weight: var(--font-fw--list-of-players--display--header);
+  font-size: var(--font-fs--list-of-players--display--header);
+  line-height: var(--font-lh--list-of-players--display--header);
+}
+
+.c-section.players-list .players-display .row.header .column:first-child {
+  border-radius: 20px 0px 0px 20px;  
+}
+.c-section.players-list .players-display .row.header .column:last-child {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.c-section.players-list .players-display .row.player .column {
+  font-size: var(--font-fs--list-of-players--display--player);
+  line-height: var(--font-lh--list-of-players--display--player);
+}
+
+.c-section.players-list .players-display .row.player + .row.player {
+  border-top: 2px solid #FFFFFF33;
+}
+
+.c-section.players-list .players-display .row.player + .row.player .column {
+  padding-top: 22px;
+}
+
+.c-section.players-list .players-display .row.player .column.nickname {
+  color: var(--color--orange);
+}
+
+
+.c-section.players-list .players-display .row.player .is-online {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #7E7E7E;
+  border-radius: 6px;
+}
+
+.c-section.players-list .players-display .row.player .is-online.online {
+  border: none;
+  background-color: var(--color--orange);
+}
+
+

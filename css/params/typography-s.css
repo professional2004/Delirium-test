@@ -1,0 +1,165 @@
+@media (max-width: 769px) {
+  :root {
+    
+    --font-fs--standart: 20px;
+    --font-lh--standart: 20px;
+
+
+
+
+
+
+
+
+    /* index - hero-section title */
+    --font-fs--ihst: 25px;
+    --font-lh--ihst: 30px;
+    --font-ls--ihst: 6px;
+
+    /* index - section-more-details title */
+    --font-fs--ismdt: 18px;
+    --font-lh--ismdt: 22px;
+    --font-ls--ismdt: 6px;
+
+    /* footer - s-links */
+    --font-fs--fsl: 16px;
+    --font-lh--fsl: 21px;
+
+    /* footer - logo text */
+    --font-fs--flt: 16px;
+    --font-lh--flt: 21px;
+
+    /* footer - link-groups titles */
+    --font-fs--flgt: 17px;
+    --font-lh--flgt: 22px;
+
+    /* footer - copyright */
+    --font-fs--fc: 14px;
+    --font-lh--fc: 18px;
+
+    /* p text */
+    --font-fs--pt: 16px;
+    --font-lh--pt: 21px;
+
+    /* index section-faq title */
+    --font-fw--index-section-faq-title: 500;
+    --font-fs--index-section-faq-title: 16px;
+    --font-lh--index-section-faq-title: 21px;
+
+    /* top-up-bill form-title */
+    --font-ff--top-up-bill-form-title: "Balsamic Sans", serif;
+    --font-fw--top-up-bill-form-title: 700;
+    --font-fs--top-up-bill-form-title: 20px;
+    --font-lh--top-up-bill-form-title: 24px;
+    --font-ls--top-up-bill-form-title: 5.5px;
+    --font-tt--top-up-bill-form-title: uppercase;
+
+    /* top-up-bill menu-block title */
+    --font-fs--top-up-bill-menu-block-title: 20px;
+    --font-lh--top-up-bill-menu-block-title: 26px;
+
+    /* top-up-bill menu-block text-payment-course */
+    --font-fw--top-up-bill-menu-block-text-payment-course: 500;
+    --font-fs--top-up-bill-menu-block-text-payment-course: 16px;
+    --font-lh--top-up-bill-menu-block-text-payment-course: 19px;
+
+    /* top-up-bill menu-block item text */
+    --font-fs--top-up-bill-menu-block-item-text: 15px;
+    --font-lh--top-up-bill-menu-block-item-text: 18px;
+
+    /* transport transport-card title */
+    --font-fs--transport--transport-card-title: 14px;
+    --font-lh--transport--transport-card-title: 18px;
+
+    /* transport transport-card text */
+    --font-fs--transport--transport-card-text: 18px;
+    --font-lh--transport--transport-card-text: 23px;
+
+    /* personal-account settings-block title */
+    --font-fs--personal-account--settings-block--title: 20px;
+    --font-lh--personal-account--settings-block--title: 28px;
+
+    /* personal-account settings-block text */
+    --font-fs--personal-account--settings-block--text: 14px;
+    --font-lh--personal-account--settings-block--text: 17px;
+
+    /* personal-account statistics-block title */
+    --font-fs--personal-account--statistics-block--title: 16px;
+    --font-lh--personal-account--statistics-block--title: 24px;
+
+    /* personal-account statistics-block text-name */
+    --font-fs--personal-account--statistics-block--text-name: 14px;
+    --font-lh--personal-account--statistics-block--text-name: 24px;
+
+    /* personal-account statistics-block text-value */
+    --font-fs--personal-account--statistics-block--text-value: 14px;
+    --font-lh--personal-account--statistics-block--text-value: 24px;
+
+    /* list-of-players players-display header */
+    --font-fs--list-of-players--display--header: 18px;
+
+    /* list-of-players players-display player -- none */
+
+    /* ---------------------------------- */
+
+
+    /* section title */
+    --font-fs--section-title: 20px;
+    --font-lh--section-title: 24px;
+    --font-ls--section-title: 6px;
+
+    /* button */
+    --font-fs--button: 16px;
+    --font-lh--button: 32px;
+
+    /* button-border */
+    --font-fs--button-border: 16px;
+    --font-lh--button-border: 32px;
+
+    /* checkbox */
+    --font-fs--checkbox: 14px;
+    --font-lh--checkbox: 17px;
+
+    /* input (email, password, search) */
+    --font-fs--input: 16px;
+    --font-lh--input: 21px;
+
+    /* input-placeholder (email, password) */
+    --font-fs--input-placeholder: 15px;
+    --font-lh--input-placeholder: 18px;
+
+    /* input-message (email, password) */
+    --font-fs--input-message: 14px;
+    --font-lh--input-message: 17px;
+
+    /* header-link -- none */
+
+    /* section card-title */
+    --font-fs--section-card-title: 18px;
+    --font-lh--section-card-title: 23px;
+
+    /* section card-text */
+    --font-fs--section-card-text: 14px;
+    --font-lh--section-card-text: 18px;
+
+    /* section micro-card-title */
+    --font-fs--section-micro-card-title: 14px;
+    --font-lh--section-micro-card-title: 18px;
+
+    /* section micro-card-text */
+    --font-fs--section-micro-card-text: 12px;
+    --font-lh--section-micro-card-text: 16px;
+
+    /* shaped-link title */
+    --font-fs--shaped-link-title: 18px;
+    --font-lh--shaped-link-title: 23px;
+
+    /* shaped-link text */
+    --font-fs--shaped-link-text: 16px;
+    --font-lh--shaped-link-text: 21px;
+
+    /* shaped-link text */
+    --font-fs--shaped-link-text-mini: 15px;
+    --font-lh--shaped-link-text-mini: 20px;
+  }
+} 

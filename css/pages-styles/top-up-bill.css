@@ -1,0 +1,94 @@
+.c-section.top-up-bill {
+  /* params */
+  --section-top-up-bill--flex-dir: row;
+  --section-top-up-bill--menu-list--grid-temp-cols: repeat(2, 1fr);
+  --section-top-up-bill--bill-form-w: 450px;
+}
+
+@media (max-width: 1599px) {
+  .c-section.top-up-bill {
+    --section-top-up-bill--flex-dir: column;
+    --section-top-up-bill--menu-list--grid-temp-cols: repeat(1, 1fr);
+    --section-top-up-bill--bill-form-w: 100%;
+  }
+}
+
+.c-section.top-up-bill .c-content {
+  display: flex;
+  flex-direction: var(--section-top-up-bill--flex-dir);
+  gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.c-section.top-up-bill .menu-block {
+  width: 100%;
+  background-color: #1C1920;
+  border-radius: 10px;
+  padding: 40px 30px;
+}
+
+.c-section.top-up-bill .menu-block .title {
+  font-weight: var(--font-fw--top-up-bill-menu-block-title);
+  font-size: var(--font-fs--top-up-bill-menu-block-title);
+  line-height: var(--font-lh--top-up-bill-menu-block-title);
+}
+
+.c-section.top-up-bill .menu-block .text.payment-course {
+  display: inline-block;
+  font-weight: var(--font-fw--top-up-bill-menu-block-text-payment-course);
+  font-size: var(--font-fs--top-up-bill-menu-block-text-payment-course);
+  line-height: var(--font-lh--top-up-bill-menu-block-text-payment-course);
+  margin-top: 20px;
+}
+
+.c-section.top-up-bill .menu-block .menu-list {
+  display: grid;
+  grid-template-columns: var(--section-top-up-bill--menu-list--grid-temp-cols);
+  column-gap: 40px;
+  row-gap: 20px;
+  margin-top: 20px;
+}
+
+.c-section.top-up-bill .menu-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-section.top-up-bill .menu-block .menu-item .text {
+  font-size: var(--font-fs--top-up-bill-menu-block-item-text);
+  line-height: var(--font-fl--top-up-bill-menu-block-item-text);
+}
+
+.c-section.top-up-bill .menu-item .text.price {
+  color: var(--color--orange);
+}
+
+
+.c-section.top-up-bill .bill-form {
+  width: var(--section-top-up-bill--bill-form-w);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.c-section.top-up-bill .bill-form .form-title {
+  font-family: var(--font-ff--top-up-bill-form-title);
+  font-weight: var(--font-fw--top-up-bill-form-title);
+  font-size: var(--font-fs--top-up-bill-form-title);
+  line-height: var(--font-lh--top-up-bill-form-title);
+  letter-spacing: var(--font-ls--top-up-bill-form-title);
+  text-transform: var(--font-tt--top-up-bill-form-title);
+}
+
+.c-section.top-up-bill .bill-form .s-button.top-up {
+  width: 100%;
+}
+
+.c-section.top-up-bill .display {
+  display: grid;
+
+}
+

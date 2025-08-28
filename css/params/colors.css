@@ -1,0 +1,16 @@
+:root {
+  --color--orange: #ff6600;
+  --color--orange-transparent: #ff6600cc;
+  --color--grey: #717171;
+  --color--grey-1: #868686;
+  --color--grey-2: #8b8b8b;
+  --color--black: #11071c;
+  --color--black-1: #12091c;
+  --color--black-2: #1c1426;
+  --color--black-3: #2b2631;
+  --color--background: #19161d;
+  --color--light-text: #ececec;
+  --padding--1920px: 255px;
+  --padding--770px: 75px;
+  --padding--350px: 25px;
+}

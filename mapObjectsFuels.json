@@ -1,0 +1,87 @@
+[
+  {
+    "object": "fuel",
+    "name": "1",
+    "coords": {"x": 1942.4, "y": -1772.8}
+  },
+  {
+    "object": "fuel",
+    "name": "2",
+    "coords": {"x": 655.4, "y": -564.8}
+  },
+  {
+    "object": "fuel",
+    "name": "3",
+    "coords": {"x": -91.4, "y": -1168.8}
+  },
+  {
+    "object": "fuel",
+    "name": "4",
+    "coords": {"x": 1381.9, "y": 459.1}
+  },
+  {
+    "object": "fuel",
+    "name": "5",
+    "coords": {"x": -2244.1, "y": -2560.8}
+  },
+  {
+    "object": "fuel",
+    "name": "6",
+    "coords": {"x": -1606.0, "y": -2714.1}
+  },
+  {
+    "object": "fuel",
+    "name": "7",
+    "coords": {"x": -1675.3, "y": 412.8}
+  },
+  {
+    "object": "fuel",
+    "name": "8",
+    "coords": {"x": -2410.0, "y": 976.2}
+  },
+  {
+    "object": "fuel",
+    "name": "9",
+    "coords": {"x": -1328.6, "y": 2677.6}
+  },
+  {
+    "object": "fuel",
+    "name": "10",
+    "coords": {"x": -1470.6, "y": 1864.0}
+  },
+  {
+    "object": "fuel",
+    "name": "11",
+    "coords": {"x": 614.1, "y": 1691.3}
+  },
+  {
+    "object": "fuel",
+    "name": "12",
+    "coords": {"x": 1596.2, "y": 2199.1}
+  },
+  {
+    "object": "fuel",
+    "name": "13",
+    "coords": {"x": 2147.4, "y": 2747.8}
+  },
+  {
+    "object": "fuel",
+    "name": "14",
+    "coords": {"x": 2202.2, "y": 2475.3}
+  },
+  {
+    "object": "fuel",
+    "name": "15",
+    "coords": {"x": 2114.4, "y": 919.7}
+  },
+  {
+    "object": "fuel",
+    "name": "16",
+    "coords": {"x": 2639.1, "y": 1106.7}
+  },
+  {
+    "object": "fuel",
+    "name": "17",
+    "coords": {"x": 122.1, "y": 1961.3}
+  }
+]
