@@ -5,7 +5,7 @@ let cardsCarouselLayout = document.querySelector('.c-section.about-project .layo
 let cardsCarouselLayoutDisplay = cardsCarouselLayout.querySelector('.display');
 let cardsCarouselLayoutDisplayDescription = cardsCarouselLayoutDisplay.querySelector('.description');
 
-let imagePath = '../materials/images/index/';
+let imagePath = 'materials/images/index/';
 
 let radioChangeContent = [
   {
@@ -105,6 +105,7 @@ countQuestionCardsHeight();
 window.addEventListener('resize', () => {
   countQuestionCardsHeight();
 }) 
+
 
 
 
