@@ -69,12 +69,6 @@ function appendCard(container, npcDataItem) {
   description.innerText = 'Квестовый персонаж с ' + npcDataItem.quests.length + ' квестами';
   npcCard.appendChild(description);
 
-  let questNumber = document.createElement('div');
-  questNumber.classList.add('quest-num');
-  questNumber.innerText = npcDataItem.quests.length + ' квестов';
-  npcCard.appendChild(questNumber);
-
-
 
   container.appendChild(npcCard);
 }
@@ -151,6 +145,7 @@ function appendPaginationThreeDots(container) {
   threeDots.innerText = '...';
   container.appendChild(threeDots);
 }
+
 
 
 
