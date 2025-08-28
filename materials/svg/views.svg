@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1920 440" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+  <!-- index section more-details background -->
+  <view id="id-svg-view--index-section-more-details-background" viewBox="0 0 1920 288" preserveAspectRatio="none"></view>
+  <g>
+    <path d="M0 43.5L1920 14V242.5L0 288V43.5Z" fill="#FF6600"/>
+    <path opacity="0.8" d="M0 0L1920 150.5V285L0 215V0Z" fill="#FF6600"/>  
+  </g>
+
+
+  <!-- custom-shape (9 pieces) -->
+
+  <!-- left-top (31 31) -->
+  <view id="id-svg-view--custom-shape--left-top" viewBox="0 288 31 319"></view>
+  <g transform="translate(0, 288)">
+    <path d="M 0 31 A 31 31 0 0 1 31 0 L 31 31" fill="currentColor"/>
+    <path d="M 1 31 A 30 30 0 0 1 31 1" stroke="#FF6600" stroke-width="2"/>
+  </g>
+
+  <!-- center-top (30 31) -->
+  <view id="id-svg-view--custom-shape--center-top" viewBox="31 288 61 319"></view>
+  <g transform="translate(31, 288)">
+    <rect x="0" y="0" width="30" height="31" fill="currentColor"/>
+    <path d="M 0 1 L 30 1" stroke="#FF6600" stroke-width="2"/>
+  </g>
+
+  <!-- right-top (91 31) -->
+  <view id="id-svg-view--custom-shape--right-top" viewBox="61 288 152 319"></view>
+  <g transform="translate(61, 288)">
+    <path d="M 91 31 A 31 31 0 0 0 60 0 L 0 0 L 0 31" fill="currentColor"/>
+    <path d="M 90 31 A 30 30 0 0 0 60 1 L 0 1" stroke="#FF6600" stroke-width="2"/>
+  </g>
+
+  <!-- left-center (31 30) -->
+  <view id="id-svg-view--custom-shape--left-center" viewBox="0 319 31 349"></view>
+  <g transform="translate(0, 319)">
+    <rect x="0" y="0" width="31" height="30" fill="currentColor"/>
+    <path d="M 1 0 L 1 30" stroke="#FF6600" stroke-width="2"/>
+  </g>
+
+  <!-- center-center (30 30) -->
+  <view id="id-svg-view--custom-shape--center-center" viewBox="31 319 61 349"></view>
+  <g transform="translate(31, 319)">
+    <rect x="0" y="0" width="30" height="30" fill="currentColor"/>
+  </g>
+
+  <!-- right-center (91 30) -->
+  <view id="id-svg-view--custom-shape--right-center" viewBox="61 319 152 349"></view>
+  <g transform="translate(61, 319)">
+    <rect x="0" y="0" width="91" height="30" fill="currentColor"/>
+    <path d="M 90 0 L 90 30" stroke="#FF6600" stroke-width="2"/>
+  </g>
+
+  <!-- left-bottom (31 91) -->
+  <view id="id-svg-view--custom-shape--left-bottom" viewBox="0 349 31 440"></view>
+  <g transform="translate(0, 349)">
+    <path d="M 31 91 A 31 31 0 0 1 0 60 L 0 0 L 31 0" fill="currentColor"/>
+    <path d="M 31 90 A 30 30 0 0 1 1 60 L 1 0" stroke="#FF6600" stroke-width="2"/>
+  </g>
+
+  <!-- center-bottom (30 91) -->
+  <view id="id-svg-view--custom-shape--center-bottom" viewBox="31 349 61 440"></view>
+  <g transform="translate(31, 349)">
+    <rect x="0" y="0" width="30" height="91" fill="currentColor"/>
+    <path d="M 0 90 L 30 90" stroke="#FF6600" stroke-width="2"/>
+  </g>
+
+  <!-- right-bottom (91 91) -->
+  <view id="id-svg-view--custom-shape--right-bottom" viewBox="0 349 152 440"></view>
+  <g transform="translate(61, 349)">
+    <path d="M 91 0 A 31 31 0 0 1 61 31 A 29 29 0 0 0 31 61 A 31 31 0 0 1 0 91 L 0 0" fill="currentColor"/>
+    <path d="M 90 0 A 30 30 0 0 1 60 30 A 30 30 0 0 0 30 60 A 30 30 0 0 1 0 90" stroke="#FF6600" stroke-width="2"/>
+  </g>
+
+
+</svg>

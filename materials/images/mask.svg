@@ -1,0 +1,14 @@
+<svg width="0" height="0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="my-clip" clipPathUnits="userSpaceOnUse">
+      <rect width="200" height="383" rx="30" x="0" y="0"/>
+      <rect width="200" height="237" rx="30" x="0" y="403"/>
+      <rect width="200" height="308" rx="30" x="220" y="332"/>
+      <rect width="200" height="262" rx="30" x="440" y="378"/>
+      <rect width="200" height="369" rx="30" x="660" y="271"/>
+      <rect width="200" height="251" rx="30" x="660" y="0"/>
+      <rect width="200" height="358" rx="30" x="440" y="0"/>
+      <rect width="200" height="312" rx="30" x="220" y="0"/>
+    </clipPath>
+  </defs>
+</svg>
