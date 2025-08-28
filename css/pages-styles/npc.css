@@ -39,6 +39,10 @@
   display: grid;
   grid-template-areas: "image title"
                        "image coords";
+  column-gap: 10px;
+  align-items: center;
+  width: 100%;
+  grid-template-columns: max-content 1fr;
 }
 
 .c-section.npc .npc-card .title-block .image {
@@ -49,7 +53,8 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  grid-area: "image";
+  grid-area: image;
+  background-color: #28252c;
 }
 
 .c-section.npc .npc-card .title-block .image img {
@@ -59,13 +64,15 @@
 }
 
 .c-section.npc .npc-card .title-block .title {
-  grid-area: "title";
+  grid-area: title;
+  font-size: 24px;
 }
 
 .c-section.npc .npc-card .title-block .coords {
-  grid-area: "coords";
+  grid-area: coords;
+  color: #656269;
+  font-size: 16px;
 }
-
 
 
 
@@ -74,4 +81,5 @@
   font-size: var(--font-fs--npc--npc-card-text);
   line-height: var(--font-lh--npc--npc-card-text);
 }
+
 
