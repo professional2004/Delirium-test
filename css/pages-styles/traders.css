@@ -38,7 +38,12 @@
 .c-section.trader .trader-card .title-block {
   display: grid;
   grid-template-areas: "image title"
-                       "image coords";
+                       "image coords"
+                       "image type";
+  column-gap: 10px;
+  align-items: center;
+  width: 100%;
+  grid-template-columns: max-content 1fr;
 }
 
 .c-section.trader .trader-card .title-block .image {
@@ -49,7 +54,8 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  grid-area: "image";
+  grid-area: image;
+  background-color: #28252c;
 }
 
 .c-section.trader .trader-card .title-block .image img {
@@ -59,11 +65,20 @@
 }
 
 .c-section.trader .trader-card .title-block .title {
-  grid-area: "title";
+  grid-area: title;
+  font-size: 24px;
 }
 
 .c-section.trader .trader-card .title-block .coords {
-  grid-area: "coords";
+  grid-area: coords;
+  color: #656269;
+  font-size: 16px;
+}
+
+.c-section.trader .trader-card .title-block .type {
+  grid-area: type;
+  color: var(--color--orange);
+  font-size: 16px;
 }
 
 
@@ -74,4 +89,5 @@
   font-size: var(--font-fs--trader--trader-card-text);
   line-height: var(--font-lh--trader--trader-card-text);
 }
+
 
