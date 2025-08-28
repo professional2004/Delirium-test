@@ -78,13 +78,8 @@ function appendCard(container, traderDataItem) {
   }
   let itemsToBuy = document.createElement('div');
   itemsToBuy.classList.add('items-to-buy');
-  itemsToBuy.innerText = 'Продает ' + itemsToBuyNum + ' товаров';
+  itemsToBuy.innerText = 'Продает ' + itemsToBuyNum + ' товаров, скупает ' + itemsToSellNum + ' товаров';
   traderCard.appendChild(itemsToBuy);
-  let itemsToSell = document.createElement('div');
-  itemsToSell.classList.add('items-to-sell');
-  itemsToSell.innerText = 'Скупает ' + itemsToSellNum + ' товаров';
-  traderCard.appendChild(itemsToSell);
-
 
 
   container.appendChild(traderCard);
@@ -162,6 +157,7 @@ function appendPaginationThreeDots(container) {
   threeDots.innerText = '...';
   container.appendChild(threeDots);
 }
+
 
 
 
