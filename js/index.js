@@ -81,9 +81,6 @@ function countQuestionCardsHeight() {
     let answerHeight = card.querySelector('.text').scrollHeight + 5;
     let gapHeight = parseFloat(window.getComputedStyle(card).gap);
 
-    console.log('----- card -----');
-    console.log('questionHeight ' + questionHeight + ', paddingHeight ' + paddingHeight + ', answerHeight ' + answerHeight + ', gapHeight ' + gapHeight);
-
     let closePadding = (maxQuestionHeight - questionHeight) / 2 + paddingHeight;
     card.style.setProperty('--padding-vertical-closed', `${closePadding + 'px'}`);
 
@@ -108,6 +105,7 @@ countQuestionCardsHeight();
 window.addEventListener('resize', () => {
   countQuestionCardsHeight();
 }) 
+
 
 
 
