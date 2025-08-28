@@ -63,12 +63,12 @@ function appendCard(container, traderDataItem) {
   coords.classList.add('coords');
   coords.innerText = traderDataItem.position.x + ', ' + traderDataItem.position.y + ', ' + traderDataItem.position.z;
   titleBlock.appendChild(coords);
-  traderCard.appendChild(titleBlock);
 
   let type = document.createElement('div');
   type.classList.add('type');
   type.innerText = traderDataItem.title;
-  traderCard.appendChild(type);
+  titleBlock.appendChild(type);
+  traderCard.appendChild(titleBlock);
 
   let itemsToBuyNum = 0;
   let itemsToSellNum = 0;
@@ -157,6 +157,7 @@ function appendPaginationThreeDots(container) {
   threeDots.innerText = '...';
   container.appendChild(threeDots);
 }
+
 
 
 
